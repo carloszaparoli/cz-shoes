@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Tênis Nike Legend Essential 2 Masculino - Branco/Prata",
+      "image": "https://static.netshoes.com.br/produtos/tenis-nike-legend-essential-2-masculino/12/HZM-4400-112/HZM-4400-112_zoom1.jpg?ts=1621481687&ims=500x",
+      "rate": 5,
+      "price": 379.99,
+      "discountPrice": 209.90,
+      "inventory": 5
+    },
+    {
+      "id": 2,
+      "name": "Tênis Nike Air Max Excee Masculino - Branco+Preto",
+      "image": "https://static.netshoes.com.br/produtos/tenis-nike-air-max-excee-masculino/28/HZM-3176-028/HZM-3176-028_zoom1.jpg?ts=1581423704&ims=500x",
+      "rate": 4,
+      "price": 399.99,
+      "discountPrice": 349.99,
+      "inventory": 2
+    },
+    {
+      "id": 3,
+      "name": "Tênis Adidas Runfalcon 2.0 Feminino - Preto",
+      "image": "https://static.netshoes.com.br/produtos/tenis-adidas-runfalcon-20-feminino/06/NQQ-6922-006/NQQ-6922-006_zoom1.jpg?ts=1612439270&ims=500x",
+      "rate": 4,
+      "price": 249.99,
+      "discountPrice": 199.90,
+      "inventory": 1
+    },
+    {
+      "id": 4,
+      "name": "Chuteira Campo Nike Mercurial Superfly 8 Club - Preto+Cinza",
+      "image": "https://static.netshoes.com.br/produtos/chuteira-campo-nike-mercurial-superfly-8-club/72/HZM-5383-172/HZM-5383-172_zoom1.jpg?ts=1626301071&ims=500x",
+      "rate": 5,
+      "price": 499.99,
+      "discountPrice": 399.99,
+      "inventory": 3
+    },
+    {
+      "id": 5,
+      "name": "Tênis Masculino Polo Joy Casual Em Lona - Marrom",
+      "image": "https://static.netshoes.com.br/produtos/tenis-masculino-polo-joy-casual-em-lona/38/FSO-0021-138/FSO-0021-138_zoom1.jpg?ts=1561006397&ims=500x",
+      "rate": 2,
+      "price": 199.99,
+      "discountPrice": 89.90,
+      "inventory": 2
+    },
+    {
+      "id": 6,
+      "name": "Chuteira Campo Nike Mercurial Vapor Academy - Azul Turquesa",
+      "image": "https://static.netshoes.com.br/produtos/chuteira-campo-nike-mercurial-vapor-academy/24/HZM-5376-424/HZM-5376-424_zoom1.jpg?ts=1626300115&ims=500x",
+      "rate": 5,
+      "price": 499.99,
+      "discountPrice": 399.90,
+      "inventory": 1
+    }
+  ]
+}
