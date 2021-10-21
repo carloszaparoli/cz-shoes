@@ -74,6 +74,10 @@ export const Container = styled.div`
   max-width: 64rem;
   margin: 0 auto;
   height: 100%;
+
+  @media (max-width: 64rem) {
+    padding: 0 1rem;
+  }
 `;
 
 export const Title = styled.h1`

@@ -85,6 +85,14 @@ export const StyledProductList = styled.ul`
       }
     }
   }
+
+  @media (max-width: 960px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 560px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const StyledRateList = styled.ul`

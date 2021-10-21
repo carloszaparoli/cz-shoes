@@ -1,4 +1,4 @@
-import { mdiClose, mdiCloseThick, mdiPlusThick, mdiStar } from '@mdi/js';
+import { mdiCloseThick, mdiPlusThick, mdiStar } from '@mdi/js';
 import Icon from '@mdi/react';
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';

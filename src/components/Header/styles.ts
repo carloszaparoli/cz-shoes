@@ -14,12 +14,14 @@ export const StyledHeader = styled.header`
 
     img {
       height: 2.5rem;
+      display: block;
     }
   }
 `;
 
 export const StyledMiniCart = styled(Link)`
   position: relative;
+  transition: opacity 0.2s;
 
   span {
     font-size: 0.875rem;
@@ -38,5 +40,9 @@ export const StyledMiniCart = styled(Link)`
 
     background: ${Colors.green400};
     color: ${Colors.white};
+  }
+
+  &:hover {
+    opacity: 0.6;
   }
 `;

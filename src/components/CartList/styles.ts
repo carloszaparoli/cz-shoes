@@ -13,7 +13,7 @@ export const StyledLabel = styled.label`
 export const StyledCartList = styled.ul`
   li {
     display: grid;
-    grid-template-columns: 5.5rem 1fr 7rem 10rem;
+    grid-template-columns: 5.5rem 1fr;
     gap: 1rem;
 
     margin-bottom: 1rem;
@@ -30,6 +30,26 @@ export const StyledCartList = styled.ul`
       margin-top: 1.125rem;
       border-radius: 0.25rem;
     }
+  }
+`;
+
+export const StyledCartData = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 20rem;
+  gap: 1rem;
+
+  @media (max-width: 640px) {
+    display: flex;
+    flex-direction: column;
+  }
+`;
+
+export const StyledWrapperAmountTotal = styled.div`
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 640px) {
+    margin-top: 1rem;
   }
 `;
 
@@ -152,6 +172,12 @@ export const StyledAmountItem = styled.div`
       opacity: 0.6;
     }
   }
+
+  @media (max-width: 640px) {
+    label {
+      text-align: left;
+    }
+  }
 `;
 
 export const StyledTotalItem = styled.div`
@@ -159,7 +185,7 @@ export const StyledTotalItem = styled.div`
     text-align: right;
   }
 
-  > span {
+  span {
     display: block;
     text-align: right;
     font-weight: 600;
@@ -172,7 +198,7 @@ export const StyledCartTotal = styled.div`
 
   background: ${Colors.grey150};
 
-  > div {
+  div:last-child {
     display: flex;
     justify-content: space-between;
 
@@ -214,6 +240,18 @@ export const StyledCartTotal = styled.div`
       }
     }
   }
+
+  @media (max-width: 560px) {
+    div:last-child {
+      flex-direction: column-reverse;
+      align-items: center;
+
+      button {
+        width: 100%;
+        margin-bottom: 1.5rem;
+      }
+    }
+  }
 `;
 
 export const StyledGridTotal = styled.div`
@@ -239,5 +277,9 @@ export const StyledGridTotal = styled.div`
   strong {
     color: ${Colors.grey800};
     font-weight: 600;
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
   }
 `;
