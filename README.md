@@ -41,7 +41,7 @@ $ git clone https://github.com/carloszaparoli/cz-shoes.git && cd cz-shoes
 <pre>
 $ npm install
 </pre>
-<span>Iniciando o servidor JSON Server (Ele que fornece os produtos, simulando uma API):</span>
+<span>Utilizando um outro terminal, vamos iniciar o servidor JSON Server (Ele que fornece os produtos, simulando uma API):</span>
 <pre>
 $ npm run server
 </pre>
