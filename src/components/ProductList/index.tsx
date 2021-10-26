@@ -22,7 +22,7 @@ export function ProductList() {
 
   useEffect(() => {
     dispatch(ProductActions.loadRequest());
-  }, []);
+  }, [dispatch]);
 
   function checkStock(id: number): number {
     let quantityStock = 0;

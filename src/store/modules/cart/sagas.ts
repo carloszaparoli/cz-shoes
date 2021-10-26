@@ -1,22 +1,16 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
-import { all, takeLatest } from '@redux-saga/core/effects';
+import { all, takeLatest } from 'redux-saga/effects';
 import { toast } from 'react-toastify';
-import { AddToCart, CartTypes, DecrementAmount, RemoveToCart } from './types';
+import { CartTypes } from './types';
 
-function addToCart({ payload }: AddToCart) {
+function addToCart() {
   toast.success('Produto adicionado ao carrinho.');
 }
 
-function removeToCart({ payload }: RemoveToCart) {
+function removeToCart() {
   toast.success('Produto removido do carrinho.');
-}
-
-function decrementAmount({ payload }: DecrementAmount) {
-  // toast.success('teste');
 }
 
 export default all([
   takeLatest(CartTypes.ADD_TO_CART, addToCart),
   takeLatest(CartTypes.REMOVE_TO_CART, removeToCart),
-  takeLatest(CartTypes.DECREMENT_AMOUNT, decrementAmount),
 ]);

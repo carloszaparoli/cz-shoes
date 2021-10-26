@@ -6,6 +6,8 @@ export const StyledCompletedPurchase = styled.div`
 
   svg {
     margin-bottom: 2rem;
+    width: 6.25rem;
+    height: 6.25rem;
   }
 
   h1 {

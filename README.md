@@ -43,11 +43,11 @@ $ npm install
 </pre>
 <span>Iniciando o servidor JSON Server (Ele que fornece os produtos, simulando uma API):</span>
 <pre>
-$ json-server --watch db.json --port 3001
+$ npm run server
 </pre>
 <span>Executando a aplicaçao:</span>
 <pre>
-$ npm run dev
+$ npm start
 </pre>
 
 <h1>🚀 Tecnologias utilizadas</h1>
@@ -69,7 +69,7 @@ $ npm run dev
   </li>
   <li>
     <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a>
-  </li> 
+  </li>
   <li>
     <a href="https://github.com/axios/axios" target="_blank">Axios</a>
   </li>
@@ -81,7 +81,7 @@ $ npm run dev
   </li>
   <li>
     <a href="https://www.npmjs.com/package/json-server" target="_blank">JSON Server</a>
-  </li> 
+  </li>
 </ul>
 
 <h1>🙌 Agradecimentos</h1>
